@@ -7,6 +7,7 @@
 ## 技術
 主要引用Temporal Score Network，結合卷積神經網絡(CNN)和殘差神經網路(Resnet)的架構，以我們自行開發的桌球動作資料集(Table Tennis Pose Dataset, TT Pose Dataset)進行訓練與測試。隨後，借鑒Grad-CAM技術，提供深度學習黑盒子的可視化解釋。
 ## 成果
+模型在大方向上有能力準確分辨初學和精熟者的差別，單端的最佳測試準確率為92.377。
 ![精熟度](/img/精熟度.png)
 ![熱區圖1](/img/GradCAM_1.png)
 ![熱區圖2](/img/GradCAM_2.png)
