@@ -6,3 +6,5 @@
 建立一套能辨識桌球運動員揮拍動作的系統，以此評估運動員的技術水平，並將其分為初學和精熟兩種熟練度等級。  
 ## 技術
 主要引用Temporal Score Network，結合卷積神經網絡(CNN)和殘差神經網路(Resnet)的架構，以我們自行開發的桌球動作資料集(Table Tennis Pose Dataset, TT Pose Dataset)進行訓練與測試。隨後，借鑒Grad-CAM技術，提供深度學習黑盒子的可視化解釋。
+## 成果
+![精熟度](/img/精熟度.jpeg)
